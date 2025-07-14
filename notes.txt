@@ -1,0 +1,42 @@
+Fonts
+
+Sofia Pro Regular
+font-family: "sofia-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+Sofia Pro Regular italic
+font-family: "sofia-pro", sans-serif;
+font-weight: 400;
+font-style: italic;
+Sofia Pro Medium
+font-family: "sofia-pro", sans-serif;
+font-weight: 500;
+font-style: normal;
+Sofia Pro Medium italic
+font-family: "sofia-pro", sans-serif;
+font-weight: 500;
+font-style: italic;
+Sofia Pro Semi Bold
+font-family: "sofia-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+Sofia Pro Semi Bold italic
+font-family: "sofia-pro", sans-serif;
+font-weight: 600;
+font-style: italic;
+Sofia Pro Bold
+font-family: "sofia-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+Sofia Pro Bold italic
+font-family: "sofia-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
+Sofia Pro Black
+font-family: "sofia-pro", sans-serif;
+font-weight: 900;
+font-style: normal;
+Sofia Pro Black italic
+font-family: "sofia-pro", sans-serif;
+font-weight: 900;
+font-style: italic;
