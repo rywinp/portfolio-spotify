@@ -1,5 +1,6 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Stack } from "@mui/material";
 import Lions from "../assets/Lions.jpg"
+import VerifiedIcon from '@mui/icons-material/Verified';
 
 export default function Header() {
     return (
@@ -12,16 +13,17 @@ export default function Header() {
             backgroundPosition: "top",
             borderRadius: 2
         }}>
-            <Typography variant="h1" sx={{
-                position: "absolute", bottom: 0, left: 0, padding: 2, fontSize: {
-                    xs: "2rem",
-                    sm: "3rem",
-                    md: "4rem",
-                    lg: "6rem",
-                    xl: "7rem",
-                },
-                fontWeight: 600,
-            }}>Rywin Patcharaput</Typography>
-        </Box>
+            <Stack direction={"column"} sx={{ position: "absolute", bottom: 0, left: 0, padding: 2, }}>
+                <Stack direction={"row"} spacing={1} alignItems={"center"} sx={{ position: "absolute", bottom: { xs: 76, sm: 80, lg: 160 } }}>
+                    <VerifiedIcon sx={{ fontSize: { xs: "1rem", lg: "3rem" }, color: "#2da4eeff" }} />
+                    <Typography variant="h5" sx={{ fontWeight: 550 }}>Verified Developer</Typography>
+                </Stack>
+                <Typography
+                    sx={{
+                        fontSize: { xs: "3rem", lg: "7rem" },
+                        fontWeight: 600
+                    }}>Rywin Patcharaput</Typography>
+            </Stack>
+        </Box >
     );
 }
