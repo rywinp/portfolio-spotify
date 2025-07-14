@@ -18,7 +18,7 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: 'sofia-pro'
+        fontFamily: 'sofia-pro, san-serif'
     },
     components: {
         MuiButton: {

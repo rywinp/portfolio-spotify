@@ -13,16 +13,19 @@ export default function Header() {
             backgroundPosition: "top",
             borderRadius: 2
         }}>
-            <Stack direction={"column"} sx={{ position: "absolute", bottom: 0, left: 0, padding: 2, }}>
-                <Stack direction={"row"} spacing={1} alignItems={"center"} sx={{ position: "absolute", bottom: { xs: 76, sm: 80, lg: 160 } }}>
-                    <VerifiedIcon sx={{ fontSize: { xs: "1rem", lg: "3rem" }, color: "#2da4eeff" }} />
+            <Stack direction={"column"} spacing={1} sx={{ position: "absolute", bottom: 0, left: 0, padding: 2, }}>
+                <Stack direction={"row"} spacing={1} alignItems={"center"}>
+                    <VerifiedIcon sx={{ fontSize: { xs: "1rem", lg: "2.5rem" }, color: "#2da4eeff" }} />
                     <Typography variant="h5" sx={{ fontWeight: 550 }}>Verified Developer</Typography>
                 </Stack>
                 <Typography
+                    variant="h2"
                     sx={{
-                        fontSize: { xs: "3rem", lg: "7rem" },
                         fontWeight: 600
-                    }}>Rywin Patcharaput</Typography>
+                    }}>
+                    Rywin Patcharaput
+                </Typography>
+                <Typography variant="h6" sx={{ fontWeight: 550 }}>2,840 Coffee Cups Drank</Typography>
             </Stack>
         </Box >
     );
