@@ -8,7 +8,7 @@ export default function Discography() {
     return (
         <Stack spacing={8}>
             <Typography variant="h2" sx={{ fontWeight: 550 }}>Discography</Typography>
-            <Stack direction={"row"} gap={20} flexWrap={"wrap"}>
+            <Stack direction={"row"} gap={10} flexWrap={"wrap"}>
                 {albums.map((album) => {
                     return <Album key={album.name} album={album} />
                 })}

@@ -1,7 +1,16 @@
 import { Card, CardMedia, CardContent, Typography, IconButton, Stack } from "@mui/material";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
-export default function Album({ album }) {
+type Album = {
+  name: string;
+  cover: string;
+};
+
+type AlbumProps = {
+  album: Album;
+};
+
+export default function Album({ album }: AlbumProps) {
     return (
         <Card
             sx={{
