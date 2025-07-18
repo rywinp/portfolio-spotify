@@ -1,4 +1,4 @@
-import { Stack, Typography, Box } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import Album from "./Album";
 import useAlbums from "../hooks/useAlbums";
 
