@@ -25,7 +25,7 @@ export default function Header() {
                     }}>
                     Rywin Patcharaput
                 </Typography>
-                <Typography variant="h6" sx={{ fontWeight: 550 }}>2,840 Coffee Cups Drank</Typography>
+                <Typography variant="h6" sx={{ fontWeight: 550, pl: .5 }}>2,840 Coffee Cups Drank</Typography>
             </Stack>
         </Box >
     );
